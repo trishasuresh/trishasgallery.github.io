@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Canvas Virtuoso</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icons/iconfont.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="css/plugins/loaders.css">
+    <link rel="stylesheet" href="css/plugins/animate.css">
+    <link rel="stylesheet" href="css/plugins/pickadate-default.css">
+    <link rel="stylesheet" href="css/plugins/pickadate-default.date.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript">
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "faf070b3-131f-4525-b869-d635733cdc84";
+    (function() {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.im/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+    </script>
+</head>
+<style>
+.object-fit_scale-down {
+    object-fit: scale-down;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    .respon {
+        text-align: center !important;
+        padding-top: 10px;
+    }
+}
+</style>
+
+<body data-spy="scroll" data-target="#main-navbar">
+    <div class="main-container" id="page">
+        <header id="nav1-3">
+            <nav class="navbar" id="main-navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html" class="navbar-brand smooth-scroll"><img src="logo.jpg" alt="logo" style="height: 47px;margin-top: -10px;"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" class="smooth-scroll">Home</a></li>
+                            <li><a href="gallery.html" class="smooth-scroll">Gallery</a></li>
+                            <li><a href="https://trishasuresh.github.io/trishasgallery.github.io/#subscription1-3" class="btn-nav btn-blue smooth-scroll">Message us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <h2>My gallery</h2>
+                            <p class="lead">Please check out my latest art works here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/44.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/44.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/2.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/2.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/3.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/3.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/4.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/4.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">Drawing makes you see things clearer, and clearer and clearer still, until your eyes ache.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/5.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/5.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/6.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/6.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/7.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/7.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/8.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/8.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">How you draw is a reflection of how you feel about the world. You're not capturing it, you're interpreting it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/9.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/9.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/10.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/10.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/11.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/11.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/12.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/12.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">Originality depends only on the character of the drawing and the vision peculiar to each artist.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/13.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/13.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/14.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/14.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/15.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/15.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/16.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/16.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">One must always draw, draw with the eyes, when one cannot draw with a pencil.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/17.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/17.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/19.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/19.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/18.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/18.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/20.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/20.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">Drawing is the 'bones' of art. You have to be able to walk before you can run.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/21.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/21.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/22.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/22.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/23.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/23.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/24.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/24.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">Good drawing forms the 'bones' on which a strong painting hangs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/25.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/25.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/26.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/26.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/27.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/27.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2">
+                        <figure><img src="images/gal/28.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/28.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">A drawing is always dragged down to the level of its caption.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/29.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/29.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/30.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/30.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/31.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/31.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/36.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/36.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">Life is the art of drawing without an eraser.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/32.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/32.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/33.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/33.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/34.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/34.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/35.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/35.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">I paint the spirit and soul of what I see.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/37.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/37.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/38.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/38.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/39.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/39.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/40.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/40.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio2-1" class="p-t-lg p-b-0 bg-edit" style=" padding-top: 60px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <p class="lead">Drawing is vision on paper.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <ul class="portfolio-grid">
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/41.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/41.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/42.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/42.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/43.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/43.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="h caption-2" style="padding: 2px;">
+                        <figure><img src="images/gal/1.jpg" class="img-responsive object-fit_scale-down " alt="" style="max-height:275px;min-height: 275px;">
+                            <figcaption>
+                                <div class="caption-box">
+                                    <div class="col-xs-7">
+                                        <p class="m-b-0">Trishas Gallery</p>
+                                        <p class="small m-t-0">by Trisha</p>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <a href="images/max/1.jpg" class="btn btn-green mp-gallery" title="Trishas Gallery">View More</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer id="footer2-1" class="p-y-md footer f2 bg-edit bg-grey" style="background-color: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 respon">
+                        <p>Copyright © 2017 Trishasgallery. All rights are reserved</p>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 text-center">
+                        <ul class="footer-social respon">
+                            <li><a href="https://www.facebook.com/profile.php?id=100016568102693"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <ul class="footer-links respon">
+                            <li><a href="terms.html" title="" class="edit">Terms of use</a></li>
+                            <li><a href="mailto:trishasuresh@outlook.com" class="edit"><i class="fa fa-envelope-o"></i>Get in touch</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-98747613-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script>
+    <script src="js/plugins/jquery1.11.2.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="js/plugins/jquery.easing.1.3.min.js"></script>
+    <script src="js/plugins/jquery.countTo.js"></script>
+    <script src="js/plugins/jquery.formchimp.min.js"></script>
+    <script src="js/plugins/jquery.jCounter-0.1.4.js"></script>
+    <script src="js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins/jquery.vide.min.js"></script>
+    <script src="js/plugins/owl.carousel.min.js"></script>
+    <script src="js/plugins/spectragram.min.js"></script>
+    <script src="js/plugins/twitterFetcher_min.js"></script>
+    <script src="js/plugins/wow.min.js"></script>
+    <script src="js/plugins/picker.js"></script>
+    <script src="js/plugins/picker.date.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
